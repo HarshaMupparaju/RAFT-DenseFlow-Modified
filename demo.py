@@ -80,7 +80,7 @@ def demo(args):
 
             flow_low_12, flow_up_12 = model(image1, image2, iters=20, test_mode=True)
             flow_low_21, flow_up_21 = model(image2, image1, iters=20, test_mode=True)
-
+            print(flow_up_12.shape)
 
 
 
